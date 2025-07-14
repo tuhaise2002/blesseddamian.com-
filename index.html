@@ -102,7 +102,20 @@
        <p>&copy; 2025 Blessed Damian Secondary School. All rights reserved.</p>
     </div>
   </footer>
-
+    <script>
+        function toggleMenu() {
+            const button = document.querySelector('.menu-button');
+            const dropdown = document.getElementById('mobileDropdown');
+            
+            button.classList.toggle('open');
+            
+            if (dropdown.style.display === 'block') {
+                dropdown.style.display = 'none';
+            } else {
+                dropdown.style.display = 'block';
+            }
+        }
+    </script>
   <script>
     document.getElementById('contactForm').addEventListener('submit', function(e) {
       e.preventDefault();
