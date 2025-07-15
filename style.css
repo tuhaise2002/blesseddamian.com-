@@ -187,7 +187,7 @@
   @keyframes fadein{
     from{opacity:0;transform:translateY(20px);} to {opacity: 1; transform: translateY(o);}
   }
-  .footer {
+  footer {
     background-color: #002050;
     color: white;
     text-align: center;
