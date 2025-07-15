@@ -89,7 +89,7 @@
   }
 
   .header h1 {
-    text-align: left;
+    text-align: center;
     object-position: center;
   }
 
@@ -196,7 +196,7 @@
   }
 
   @media (max-width: 768px) {
-    .nav ul {
+    nav ul {
       flex-direction: column;
     }
 
