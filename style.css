@@ -76,7 +76,7 @@
     margin: 0 auto;
     padding: 1rem;
   }
-  .container .logo img{
+ .logo img{
     width: 150px;
     height: 150px;
     align-items: flex-start;
@@ -88,11 +88,7 @@
     padding:10px 20px;
     align-items: center;
     display: flex;
-  }
-  .logo{
-      width:10px;
-      height: 10px;
-      margin-right:20px;
+  
   }
 
   .school-info h1 {
