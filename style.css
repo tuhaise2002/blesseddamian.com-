@@ -69,6 +69,7 @@
    .dropdown-content a:hover {
     background-color: #ddd;
   }
+
             
   .container {
     max-width: 1100px;
@@ -84,13 +85,20 @@
   }
   .header {
     background-color: white;
-    color: rgb(5, 20, 223);
-    padding:1 rem0;
+    padding:10px 20px;
+    align-items: center;
+    display: flex;
+  }
+  .logo{
+      width:80px;
+      height: auto;
+      margin-right:20px;
   }
 
-  .header h1 {
-    text-align: center;
-    object-position: center;
+  .school-info h1 {
+      margin:0;
+      font-size:22px;
+      color:blue;
   }
 
  nav ul {
@@ -140,6 +148,7 @@
   .motto{
     color: rgb(111, 111, 238);
     font-style: italic;
+    margin:0;
   }
 
     .feature-section{
