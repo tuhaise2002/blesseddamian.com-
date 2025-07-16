@@ -79,14 +79,14 @@
   .Top-bar{
     background-color: white;
     padding:10px 20px;
-    align-items: left;
+    align-items: center;
     display: flex;
   
   }
 
   .school-info h1 {
       margin:0;
-      font-size:8px;
+      font-size:20px;
       color:blue;
   }
   .motto{
@@ -97,7 +97,7 @@
  @media(max-width:600px){
      .Top-bar{
          flex-direction:column;
-         text-align:left;
+         text-align: center;
      }
      .logo{
          margin-right:0;
