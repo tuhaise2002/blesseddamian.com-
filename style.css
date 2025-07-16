@@ -79,14 +79,14 @@
   .Top-bar{
     background-color: white;
     padding:10px 20px;
-    align-items: center;
+    align-items: left;
     display: flex;
   
   }
 
   .school-info h1 {
       margin:0;
-      font-size:22px;
+      font-size:10px;
       color:blue;
   }
   .motto{
