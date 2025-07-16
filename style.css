@@ -86,7 +86,7 @@
 
   .school-info h1 {
       margin:0;
-      font-size:10px;
+      font-size:8px;
       color:blue;
   }
   .motto{
@@ -97,7 +97,7 @@
  @media(max-width:600px){
      .Top-bar{
          flex-direction:column;
-         text-align:centre;
+         text-align:left;
      }
      .logo{
          margin-right:0;
